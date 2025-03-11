@@ -3,3 +3,61 @@ title: Loai Hataba Portfolio
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+# Site settings
+email: LoaiHataba@gmail.com
+url: https://github.com/loai-hataba/Portfolio
+description: "An exhibit showing some of Loai's Projects"
+keywords: "Loai, Portfolio, Data Science"
+skills: "Data Scientist - Software Developer"
+meta_author: Loai Hataba
+
+# Google webmaster tools
+# google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+# contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Loai Eataba
+  location: Egypt
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/Loai-Hataba/Portfolio
+
+# Postal address (add as many lines as necessary)
+
+# Credits content
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
